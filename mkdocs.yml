@@ -23,7 +23,7 @@ theme:
   # 导航设置
   features:
   # 添加代码操作的按钮
-  - content.action.edit
+  #- content.action.edit
   # 粘性导航选项卡
   - navigation.tabs
   - navigation.tabs.sticky
