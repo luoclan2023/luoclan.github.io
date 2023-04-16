@@ -87,8 +87,8 @@ plugins:
 - search:
     separator: '[\\s\\u200b\\-]'
 # 在每个页面底部添加上次更新日期和创建文档的支持
-- git-revision-date-localized:
-    enable_creation_date: true
+#- git-revision-date-localized:
+#    enable_creation_date: true
 # 添加 git 仓库信息
 repo_name: luoclan2023/luoclan2023.github.io
 repo_url: https://github.com/luoclan2023/luoclan2023.github.io
