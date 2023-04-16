@@ -1,0 +1,111 @@
+# 站点设置
+site_name: 皓洋成长周记
+site_description: 记录皓洋成长过程中的点点滴滴
+site_url: https://www.luoclan.com/
+site_author: LuoClan
+
+# 主题设置
+theme:
+  # material 主题
+  name: material
+  # 自定义素材文件夹地址
+  custom_dir: docs/resources/
+  # favicon 设置
+  favicon: resources/favicon.ico
+  # logo 设置
+  #logo: resources/logo.webp
+  # 字体设置
+  font:
+    code: Roboto Mono
+    text: Roboto
+  # 语言设置
+  language: zh
+  # 导航设置
+  features:
+  # 粘性导航选项卡
+  - navigation.tabs
+  - navigation.tabs.sticky
+  # 导航扩展
+  - navigation.expand
+  # 节索引页
+  - navigation.indexes
+  # 导航部分
+  - navigation.sections
+  # 返回顶部按钮
+  - navigation.top
+  # 锚点跟踪
+  - navigation.tracking
+  # 搜索突出显示
+  - search.highlight
+  # 搜索共享
+  - search.share
+  # 搜索建议
+  - search.suggest
+  # 切换暗黑模式
+  palette:
+  - accent: indigo
+    primary: white
+    scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+  - accent: black
+    primary: black
+    scheme: slate
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
+  # 仅搜索索引确定搜索插件应该只生成搜索索引还是生成完整的搜索解决方案。
+  search_index_only: true
+
+# 页角设置
+# 页角版权声明
+copyright: Copyright &copy; 2023 <a href="https://www.luoclan.com">LuoClan.com</a>
+extra:
+  # 关闭 “Made with Material for MkDocs”
+  generator: false
+  # 社交链接
+  social:
+  - icon: fontawesome/solid/blog
+    link: https://www.luoclan.com
+  - icon: fontawesome/solid/envelope
+    link: mailto:luoclan@gmail.com
+
+# 额外 css 加载 (包括字体)
+extra_css:
+- resources/css/ui.css
+- https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css
+
+# 控制用于链接到文档而不是"/"
+use_directory_urls: false
+
+# 插件
+plugins:
+# 搜索功能
+- search:
+    separator: '[\\s\\u200b\\-]'
+# 在每个页面底部添加上次更新日期和创建文档的支持
+#- git-revision-date-localized:
+#    enable_creation_date: true
+# 添加 git 仓库信息
+#repo_name: luoclan2023/luoclan2023.github.io
+#repo_url: https://github.com/luoclan2023/luoclan2023.github.io
+
+# markdown 扩展功能
+markdown_extensions:
+# 启用 SmartyPants 版式扩展
+- smarty
+# 要在（包含的）扩展中启用永久链接
+- toc:
+    permalink: []
+- admonition
+- def_list
+- codehilite
+
+# 顶部导航设置
+nav:
+- 🌈 首页: ./index.md
+- 🐰 2023年周记: # 图标设置 https://emojixd.com/
+  - 2023年 (04-17~04-23): ./2023/皓洋成长周记.2023年(04-17~04-23).md
+  - 2023年 (04-10~04-16): ./2023/皓洋成长周记.2023年(04-10~04-16).md
+#- 🔗 RSS订阅: ./rss/rss.xml

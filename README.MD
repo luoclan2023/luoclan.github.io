@@ -1,2 +1,2 @@
-## LuoClan Growing Diary
-use MkDocs as diary
+## 皓洋成长日记
+Made with Material for MkDocs
