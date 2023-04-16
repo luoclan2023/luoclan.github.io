@@ -13,7 +13,7 @@ theme:
   # favicon 设置
   favicon: resources/favicon.ico
   # logo 设置
-  #logo: resources/logo.webp
+  logo: resources/logo.webp
   # 字体设置
   font:
     code: Roboto Mono
